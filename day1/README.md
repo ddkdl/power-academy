@@ -42,6 +42,16 @@ Go ahead and write it back and run the program again. This time around you shoul
 
 # Tasks
 
+## Loan Payment Calculator
+
+We will build a calculator for estimating the monthly payments of a loan.
+
+This estimation is based on the [Loan Amortization](https://www.investopedia.com/terms/a/amortized_loan.asp) principle. Where given a **principal loan amount (P)**, an **interest rate (r)**, the **number of yearly payments (n)**, and the **loan term (t)** we can estimate the **monthly payment amount (p)** and the **total amount paid with interest (I)** with the following formula:
+
+![p](https://github.com/ddkdl/power-academy/)
+![I](https://github.com/ddkdl/power-academy/)
+
+
 * Introduce repl.it [https://repl.it]
 * Hello World (To get introduced to Go and have a first working program)
 * (Student Loan Calculator?) Some Calculator (To use variables and constants) (Movie Score Aggregator?)
