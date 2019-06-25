@@ -1,58 +1,27 @@
-# Day One
-### 1. Getting Started with Go
+# Day One - Getting Started with Go
 
-#### Hello World
+## Tasks
+
+### Hello World!
+
 As any good programming tutorial, we will start with a hello world program to get a hang of what are the minimum requirements for running a program.
 
-```go
-package main
-```
-The first line is crucial for having an executable program.
+### Hello You!
 
-This indicates that the current file is the one that will be executed. We will come back to this concept later on. Just know that without this your program won't run. In fact, go ahead and delete that line for now.
+As any good programming tutorial, we will beat a dead horse again and again to get a point accross.
+This time we will modify the Hello World program to take in user input and display in on the screen.
 
-The next line
-
-#### Running a Program
-
-To run the program, you will need to open the terminal and navigate to the folder where the .go file is located.
-Now run the command 
-
-```bash
-go run hello.go
-```
-You will get an error saying that it was expecting a package. This is because we removed the first line we mentioned in the previous section. 
-
-Go ahead and write it back and run the program again. This time around you should see the message ```Hello World``` in the terminal.
-
-### 2. Go Data Types
-
-#### Numbers
-
-
-#### Strings
-
-#### Booleans
-
-### 3. Variables and Constants
-
-#### Variables
-
-#### Constants
-
-# Tasks
-
-## Loan Payment Calculator
+### Loan Payment Calculator
 
 We will build a calculator for estimating the monthly payments of a loan.
 
 This estimation is based on the [Loan Amortization](https://www.investopedia.com/terms/a/amortized_loan.asp) principle. Where given a **principal loan amount (P)**, an **interest rate (r)**, the **number of yearly payments (n)**, and the **loan term (t)** we can estimate the **monthly payment amount (p)** and the **total amount paid with interest (I)** with the following formula:
 
-![p](https://github.com/ddkdl/power-academy/)
-![I](https://github.com/ddkdl/power-academy/)
+![p](https://github.com/ddkdl/power-academy/tree/prep/day1/p.png)
+![I](https://github.com/ddkdl/power-academy/tree/prep/day1/I.png)
 
+## Smart Rhymer
 
-* Introduce repl.it [https://repl.it]
-* Hello World (To get introduced to Go and have a first working program)
-* (Student Loan Calculator?) Some Calculator (To use variables and constants) (Movie Score Aggregator?)
-* Word Play?
+We will now build a program for identifying whether two words rhyme or not.
+
+Unlike the name suggests, this is not a very smart program. It only recognizes words that end with the same 3 letters as rhyming (If you want to make it into a smarter program feel free to try :)).
