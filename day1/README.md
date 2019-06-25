@@ -18,6 +18,7 @@ We will build a calculator for estimating the monthly payments of a loan.
 This estimation is based on the [Loan Amortization](https://www.investopedia.com/terms/a/amortized_loan.asp) principle. Where given a **principal loan amount (P)**, an **interest rate (r)**, the **number of yearly payments (n)**, and the **loan term (t)** we can estimate the **monthly payment amount (p)** and the **total amount paid with interest (I)** with the following formula:
 
 ![p](p.png)
+
 ![I](I.png)
 
 ## Smart Rhymer
