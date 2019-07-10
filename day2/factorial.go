@@ -3,11 +3,13 @@ package main
 import "fmt"
 
 func factorial(n int64) int64 {
-	if n == 1 || n == 0 {
-		return 1
-	}
+	// Insert logic here
+	return 0
+}
 
-	return n * factorial(n-1)
+func iterativeFactorial(n int64) int64 {
+	// Insert logic here
+	return 0
 }
 
 func main() {

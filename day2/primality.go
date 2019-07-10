@@ -3,15 +3,7 @@ package main
 import "fmt"
 
 func isPrime(number int) bool {
-	if number < 1 {
-		return false
-	}
-
-	for i := 2; i < number; i++ {
-		if number%i == 0 {
-			return false
-		}
-	}
+	// Insert logic here
 
 	return true
 }
@@ -19,17 +11,7 @@ func isPrime(number int) bool {
 func sieveOfEratostenes(n int) []bool {
 	isPrime := make([]bool, n+1)
 
-	for i := range isPrime {
-		isPrime[i] = true
-	}
-
-	for i := 2; i*i <= n; i++ {
-		if isPrime[i] {
-			for j := i * i; j <= n; j += i {
-				isPrime[j] = false
-			}
-		}
-	}
+	// Insert logic here
 
 	return isPrime
 }

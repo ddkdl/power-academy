@@ -11,9 +11,7 @@ func area(x, y []float64) float64 {
 
 	result = 0
 
-	for i := 0; i < len(x)-1; i++ {
-		result += (x[i+1] - x[i]) * y[i]
-	}
+	// Isert logic here
 
 	return result
 }
